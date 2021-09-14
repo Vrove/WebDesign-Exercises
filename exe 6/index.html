@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+        <fieldset>
+            <legend>Formulir Calon Pegawai</legend>
+            <section>
+                <label for="name">Name :</label>
+                <input type="name" name="name" id="name">
+                <br><br>
+                <label for="alamat">Alamat :</label>
+                <input type="alamat" name="alamat" id="alamat">
+                <br><br>
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password">
+                <br><br>
+            </section>
+
+            <section class="radio">
+                <span>Jenis Kelamin : </span>
+                <input type="radio" name="jeniskelamin" id="laki-laki" value="laki-laki" checked>
+                <label for="laki-laki">Laki-Laki</label>
+                <input type="radio" name="jeniskelamin" id="perempuan" value="perempuan">
+                <label for="perempuan">Perempuan</label>
+                <br><br>
+            </section>
+            
+            <section class="checkbox">
+                <span>Bahasa pemograman yang dikuasai : </span>
+                <input type="checkbox" name="bahasa" id="web" value="web">
+                <label for="web">Web</label>
+                <input type="checkbox" name="bahasa" id="mobile" value="mobile">
+                <label for="mobile">Mobile</label>
+                <input type="checkbox" name="bahasa" id="desktop" value="desktop">
+                <label for="desktop">Desktop</label>
+                <br><br>
+            </section>
+
+            <section class="kota-asal">
+                <label for="kota">Asal Kota</label>
+                <select name="kota" id="kota">
+                    <option value=minahasa>Minahasa</option>
+                    <option value=manado>Manado</option>
+                    <option value=minut>Minahasa Utara</option>
+                    <option value=minsel>Minahasa Selatan</option>
+                    <option value=mtira>Minahasa Tenggara</option>
+                </select>
+                <br><br>
+            </section>
+
+            <section class="alasan">
+                <label for="alasan">Apa yang Membuat Kami harus memilih Anda? : </label>
+                <br>
+                <textarea name="alasan" id="" cols="50" rows="10"></textarea>
+                <br><br>
+            </section>
+            <section class="submit">
+                <input type="submit" value="Proses">
+            </section>
+        </fieldset>
+        </form>
+        </body>
+</html>
